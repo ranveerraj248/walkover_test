@@ -1,37 +1,35 @@
-.wrapper {
-  height: auto;
-  width: 800px;
-  background-color: transparent;
+*{
+  font-size: 1.2em;
 }
-​ .box {
-  height: 50%;
-  width: 50%;
-  background-color: black;
-  box-sizing: border-box;
-  float: left;
+#Topbutton {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: red;
+  padding: 1em;
+  border-radius: 40px;
+  color: white;
 }
-.a {
-  padding-right: 1em;
-  padding-bottom: 1em;
-  box-sizing: border-box;
-}
-​ .b {
-  padding-left: 1em;
-  padding-bottom: 1em;
-  box-sizing: border-box;
-}
-.c {
-  padding-right: 1em;
-  padding-top: 1em;
-  box-sizing: border-box;
-}
-.d {
-  padding-left: 1em;
-  padding-top: 1em;
-  box-sizing: border-box;
-}
-.con {
+.box {
   width: 100%;
-  height: 100%;
-  border: 1px solid red;
+  height: 600px;
+  padding: 1em;
+  margin: 1em;
+  border: 2px solid red;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
 }
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .box {
+    width: 50%;
+  }
+}
+​
